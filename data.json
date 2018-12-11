@@ -574,7 +574,7 @@
     "description": "Full generation of traditional Chinese opera using multiple machine learning algorithms",
     "links": {
       "Youtube": "https://www.youtube.com/watch?v=QPdb28h4qjc",
-      "Paper": "https://www.youtube.com/watch?v=QPdb28h4qjc"
+      "NIPS Paper": "https://nips2018creativity.github.io/doc/legend_of_wrong_mountain.pdf"
     },
     "medium": [
       "Python"
