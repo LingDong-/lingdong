@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <script src="/documentation/unmark.js"></script>
+    <script>
+
+    var fileToLoad = window.location.href.split("?")[1]
+    function loadTxt(callback) {   
+      var xobj = new XMLHttpRequest();
+      xobj.overrideMimeType("text/plain");
+      xobj.open('GET', fileToLoad, true);
+      xobj.onreadystatechange = function () {
+        if (xobj.readyState == 4 && xobj.status == "200") {
+          callback(xobj.responseText);
+        }
+      };
+      xobj.send(null); 
+    }
+
+    function init(){
+      loadTxt(function(t){
+        var t1 = unmark(t)
+        var htm = "<div class='text'>"
+          htm += "<div>"
+            htm += "<div style='float:left;'><a href='../'>Back</a></div>"
+            htm += "<div style='float:right;'>Lingdong Huang</div>"
+          htm += "</div><br>"
+          htm += t1
+        htm += "</div>"
+        document.body.innerHTML += htm
+        console.log(t1)
+      })
+    }
+
+    </script>
+    <link rel="stylesheet" type="text/css" href="/documentation/style.css">
+  </head>
+  <body onload="init()">
+
+      <div>
+        
+      </div>
+
+  </body>
+</html>

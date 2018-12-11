@@ -1,0 +1,588 @@
+[  
+  {
+    "title": "Lingdong Huang",
+    "images": [
+      {
+        "url": "https://cdn.glitch.com/6df32ef1-b99f-4c8b-a119-58c1ef7b41bf%2Fimg-lingdong.png?1543713072211",
+        "size": "140%",
+        "position": "50% 35%"
+      }
+    ],
+    "description": "Who made all the other stuff on this site...",
+    "links": {
+      "Github": "https://github.com/LingDong-/",
+      "Vimeo": "https://vimeo.com/user48479503",
+      "Itch.io": "https://lingdonh.itch.io/"
+    },
+    "medium": [
+      ""
+    ],
+    "date": {
+      "month": 7,
+      "year": 1997
+    }
+  },{
+    "title": "Hermit",
+    "images": [
+      {
+        "url": "https://68.media.tumblr.com/82e6435e3e7880f415ee976cf7262ce0/tumblr_inline_ocgwbmZrkv1tos637_540.gif",
+        "size": "100%",
+        "position": "50% 50%"
+      }
+    ],
+    "description": "Interactive procedurally generated landscapes.",
+    "links": {
+      "Youtube": "https://www.youtube.com/watch?v=mPYeTJd8klQ",
+      "Github": "https://github.com/LingDong-/Hermit"
+    },
+    "medium": [
+      "Python"
+    ],
+    "date": {
+      "month": 11,
+      "year": 2015
+    }
+  },
+  {
+    "title": "Fauna of Sloogia",
+    "images": [
+      {
+        "url": "http://cmuems.com/2016/60212/wp-content/uploads/2016/10/Snip20161021_28.png",
+        "size": "200%",
+        "position": "50% 40%"
+      }
+    ],
+    "description": "Book of generated imaginary creatures.",
+    "links": {
+      "Blurb": "http://www.blurb.com/books/7429507-fauna-of-sloogia-generative-creatures",
+      "PDF": "http://cmuems.com/2016/60212/wp-content/uploads/2016/12/MuKJ8N.pdf",
+      "Documentation": "./documentation?https://dl.dropbox.com/s/28k0hv421ofk9pz/fauna-of-sloogia.md"
+    },
+    "medium": [
+      "Processing",
+      "Basil.js"
+    ],
+    "date": {
+      "month": 10,
+      "year": 2016
+    }
+  },
+  {
+    "title": "Plotter Landscapes",
+    "images": [
+      {
+        "url": "http://cmuems.com/2016/60212/wp-content/uploads/2016/09/1fw3232.pic_.jpg",
+        "size": "150%",
+        "position": "50% 50%"
+      }
+    ],
+    "description": "Generative landscapes for plotters.",
+    "links": {
+      "Code & Documentation": "./documentation?https://dl.dropbox.com/s/tpir3t6upd4zyvn/plotter-landscapes.md"
+    },
+    "medium": [
+      "Processing",
+      "Axidraw"
+    ],
+    "date": {
+      "month": 9,
+      "year": 2016
+    }
+  },
+  {
+    "title": "Face-Powered Shooter",
+    "images": [
+      {
+        "url": "http://cmuems.com/2016/60212/wp-content/uploads/2016/10/AFEJALWFEJALEWFJWALJ.gif",
+        "size": "130%",
+        "position": "50% 50%"
+      }
+    ],
+    "description": "First person shooter controlled by facial expressions.",
+    "links": {
+      "Vimeo": "https://vimeo.com/187285292",
+      "Code & Documentation": "./documentation?https://dl.dropbox.com/s/04i9dtxnz9h0rzm/face-powered-shooter.md?dl=0"
+    },
+    "medium": [
+      "Processing",
+      "FaceOSC"
+    ],
+    "date": {
+      "month": 10,
+      "year": 2016
+    }
+  },
+  {
+    "title": "The Toilet Paper Printer",
+    "images": [
+      {
+        "url": "http://cmuems.com/2016/60212/wp-content/uploads/2016/11/plotterv-768x1487.png",
+        "size": "400%",
+        "position": "50% 10%"
+      }
+    ],
+    "description": "DIY plotter made with cardboard and straws.",
+    "links": {
+      "Vimeo": "https://vimeo.com/192161788",
+      "Documentation": "./documentation?https://dl.dropbox.com/s/474wex4gfi9no27/toilet-paper-printer.md"
+    },
+    "medium": [
+      "Processing",
+      "Bash",
+      "littleBits"
+    ],
+    "date": {
+      "month": 10,
+      "year": 2016
+    }
+  },
+  {
+    "title": "Trashscape",
+    "images": [
+      {
+        "url": "http://golancourses.net/excap17/wp-content/uploads/2017/02/Snip20170214_1-1024x563.png",
+        "size": "200%",
+        "position": "0% 80%"
+      }
+    ],
+    "description": "Aman's portrait seen through his trash.",
+    "links": {
+      "Vimeo": "https://vimeo.com/204271262",
+      "Doc": "./documentation?https://dl.dropbox.com/s/4d8hhvtaiaemb8j/trashscape.md",
+      "Mac Download": "https://drive.google.com/file/d/0B1w_KJh9VUO7NERpSmJmWWxISHM/view?usp=sharing"
+    },
+    "medium": [
+      "C#",
+      "Unity",
+      "PhotoScan Pro"
+    ],
+    "date": {
+      "month": 2,
+      "year": 2017
+    }
+  },
+  {
+    "title": "photoBarcoder",
+    "images": [
+      {
+        "url": "http://golancourses.net/excap17/wp-content/uploads/2017/03/tmpUo1UvC.bmp",
+        "size": "130%",
+        "position": "50% 50%"
+      }
+    ],
+    "description": "Mobile app for turning photos into scannable barcodes.",
+    "links": {
+      "Vimeo": "https://vimeo.com/207668010",
+      "Documentation": "./documentation?https://dl.dropbox.com/s/7h5ytkwdmz4z0i2/photo-barcoder.md"
+    },
+    "medium": [
+      "Python",
+      "Processing for Android"
+    ],
+    "date": {
+      "month": 3,
+      "year": 2017
+    }
+  },
+  {
+    "title": "Image Sequencer",
+    "images": [
+      {
+        "url": "http://www.andrew.cmu.edu/user/lingdonh/imgseq/title.png",
+        "size": "120%",
+        "position": "50% 50%"
+      }
+    ],
+    "description": "Programmatically sequence crowd-sourced images into gifs.",
+    "links": {
+      "Documentation": "./documentation?https://dl.dropbox.com/s/0feqbm69w68ldoa/image-sequencer.md"
+    },
+    "medium": [
+      "Python",
+      "OpenCV"
+    ],
+    "date": {
+      "month": 5,
+      "year": 2017
+    }
+  },
+  {
+    "title": "Loopy Mocap Skin",
+    "images": [
+      {
+        "url": "http://cmuems.com/2016/60212/wp-content/uploads/2016/11/Snip20161108_17.png",
+        "size": "150%",
+        "position": "10% 50%"
+      }
+    ],
+    "description": "Decorative skin for motion capture data.",
+    "links": {
+      "Vimeo": "https://vimeo.com/191059977",
+      "Code & Documentation": "./documentation?https://dl.dropbox.com/s/wuagqc1llbe9jaa/loopy-mocap-skin.md"
+    },
+    "medium": [
+      "Processing"
+    ],
+    "date": {
+      "month": 11,
+      "year": 2016
+    }
+  },
+  {
+    "title": "Gen-a-city",
+    "images": [
+      {
+        "url": "https://cdn.glitch.com/6df32ef1-b99f-4c8b-a119-58c1ef7b41bf%2Fimg-genacity.jpg?1543713059986",
+        "size": "150%",
+        "position": "0% 50%"
+      }
+    ],
+    "description": "Procedurally generated satellite image of cities.",
+    "links": {
+      "Play Online": "http://www.andrew.cmu.edu/user/lingdonh/Gen-a-city/"
+    },
+    "medium": [
+      "Javascript"
+    ],
+    "date": {
+      "month": 9,
+      "year": 2015
+    }
+  },{
+    "title": "Estoc",
+    "images": [
+      {
+        "url": "http://cloud-3.steamusercontent.com/ugc/532893089789563154/6BC947C189976DB037B681645EAEE3E3B9C99C13/",
+        "size": "200%",
+        "position": "50% 80%"
+      }
+    ],
+    "description": "Competitive swordplay featuring dismemberment.",
+    "links": {
+      "Steam": "https://steamcommunity.com/sharedfiles/filedetails/?id=439698626",
+      "Youtube": "https://www.youtube.com/watch?v=oXyUAyj3Go4"
+    },
+    "medium": [
+      "Lua",
+      "Love2D"
+    ],
+    "date": {
+      "month": 7,
+      "year": 2015
+    }
+  },{
+    "title": "Light Bearer",
+    "images": [
+      {
+        "url": "https://img.itch.zone/aW1hZ2UvNDc0MzIvMjA2MjAzLmdpZg==/original/FjCAsd.gif",
+        "size": "150%",
+        "position": "50% 80%"
+      }
+    ],
+    "description": "A tiny game about light and darkness.",
+    "links": {
+      "Itch.io": "https://lingdonh.itch.io/light-bearer"
+    },
+    "medium": [
+      "p5.js"
+    ],
+    "date": {
+      "month": 12,
+      "year": 2015
+    }
+  },{
+    "title": "Ci-ren",
+    "images": [
+      {
+        "url": "https://cdn.glitch.com/6df32ef1-b99f-4c8b-a119-58c1ef7b41bf%2Fimg-ciren.png?1543713064601",
+        "size": "280%",
+        "position": "50% 45%"
+      }
+    ],
+    "description": "Generative Chinese poetry.",
+    "links": {
+      "Github": "https://github.com/LingDong-/ci-ren",
+      "Play Online": "https://lingdong-.github.io/ci-ren/"
+    },
+    "medium": [
+      "Python",
+      "Javascript"
+    ],
+    "date": {
+      "month": 8,
+      "year": 2016
+    }
+  },{
+    "title": "imgmarkov",
+    "images": [
+      {
+        "url": "https://github.com/memegen/imgmarkov/raw/master/screenshots/1.png?raw=true",
+        "size": "100%",
+        "position": "80% 0%"
+      }
+    ],
+    "description": "Dreams up images using multi-dimensional markov chains.",
+    "links": {
+      "Github": "https://github.com/memegen/imgmarkov"
+    },
+    "medium": [
+      "Python"
+    ],
+    "date": {
+      "month": 12,
+      "year": 2016
+    }
+  },{
+    "title": "linedraw",
+    "images": [
+      {
+        "url": "https://github.com/LingDong-/linedraw/raw/master/screenshots/1.png?raw=true",
+        "size": "220%",
+        "position": "70% 10%"
+      }
+    ],
+    "description": "Convert images to vectorized line drawings for plotters.",
+    "links": {
+      "Github": "https://github.com/LingDong-/linedraw"
+    },
+    "medium": [
+      "Python",
+      "OpenCV"
+    ],
+    "date": {
+      "month": 12,
+      "year": 2016
+    }
+  },{
+    "title": "Better Horses",
+    "images": [
+      {
+        "url": "https://img.itch.zone/aW1hZ2UvMTkzMzYyLzkwMzUwNC5wbmc=/original/gncuXv.png",
+        "size": "180%",
+        "position": "40% 65%"
+      }
+    ],
+    "description": "Multiplayer Generative Beast Racing & Betting.",
+    "links": {
+      "Itch.io": "https://lingdonh.itch.io/better-horses"
+    },
+    "medium": [
+      "C#",
+      "Unity"
+    ],
+    "date": {
+      "month": 11,
+      "year": 2017
+    }
+  },{
+    "title": "Normal Human Face Simulator",
+    "images": [
+      {
+        "url": "https://img.itch.zone/aW1nLzk1NDYwMi5wbmc=/original/OLL%2By1.png",
+        "size": "100%",
+        "position": "50% 40%"
+      }
+    ],
+    "description": "Local 2-player face-biting simulation.",
+    "links": {
+      "Itch.io": "https://lingdonh.itch.io/normal-human-face-simulator"
+    },
+    "medium": [
+      "Lua",
+      "Love2D"
+    ],
+    "date": {
+      "month": 11,
+      "year": 2017
+    }
+  },{
+    "title": "{Shan, Shui}*",
+    "images": [
+      {
+        "url": "https://cdn.glitch.com/6df32ef1-b99f-4c8b-a119-58c1ef7b41bf%2Fimg-shanshui.jpg?1543713066019",
+        "size": "180%",
+        "position": "40% 60%"
+      }
+    ],
+    "description": "Infinite procedurally generated Chinese landscape painting.",
+    "links": {
+      "Github": "https://github.com/LingDong-/shan-shui-inf",
+      "Play Online": "https://lingdong-.github.io/shan-shui-inf"
+    },
+    "medium": [
+      "Javascript"
+    ],
+    "date": {
+      "month": 2,
+      "year": 2018
+    }
+  },{
+    "title": "nonflowers",
+    "images": [
+      {
+        "url": "https://github.com/LingDong-/nonflowers/raw/master/screenshots/screen01.jpg",
+        "size": "700%",
+        "position": "10% 10%"
+      }
+    ],
+    "description": "Procedurally generated paintings of nonexistent flowers.",
+    "links": {
+      "Github": "https://github.com/LingDong-/nonflowers",
+      "Play Online": "https://lingdong-.github.io/nonflowers/",
+      "Doc": "https://drive.google.com/file/d/1g1gVmRKdn4He0fgavvKt54tb6HmMYANU/view"
+    },
+    "medium": [
+      "Javascript"
+    ],
+    "date": {
+      "month": 2,
+      "year": 2018
+    }
+  },{
+    "title": "Prophesy of Mind",
+    "images": [
+      {
+        "url": "https://i.vimeocdn.com/video/569181709_260x146.jpg",
+        "size": "100%",
+        "position": "10% 10%"
+      }
+    ],
+    "description": "Experimental film about a dream.",
+    "links": {
+      "Vimeo": "https://vimeo.com/165344992"
+    },
+    "medium": [
+      "Adobe Premiere Pro"
+    ],
+    "date": {
+      "month": 5,
+      "year": 2016
+    }
+  },{
+    "title": "Human Powered Computers",
+    "images": [
+      {
+        "url": "https://cdn.glitch.com/6df32ef1-b99f-4c8b-a119-58c1ef7b41bf%2Fimg-tile.png?1543713069304",
+        "size": "120%",
+        "position": "0% 0%"
+      }
+    ],
+    "description": "Seamlessly tilable texture featuring human powered computers.",
+    "links": {
+      "Documentation": "https://cdn.glitch.com/6df32ef1-b99f-4c8b-a119-58c1ef7b41bf%2Fimg-tile.png?1543713069304"
+    },
+    "medium": [
+      "Screen print"
+    ],
+    "date": {
+      "month": 9,
+      "year": 2017
+    }
+  },{
+    "title": "Pix2Pix Cities",
+    "images": [
+      {
+        "url": "https://github.com/DerTarchin/Pix2Pix-Generative-Cities/raw/master/images/cover.jpg",
+        "size": "100%",
+        "position": "40% 0%"
+      }
+    ],
+    "description": "Procedurally generated cities with photorealistic rendering by Pix2Pix.",
+    "links": {
+      "Github": "https://github.com/DerTarchin/Pix2Pix-Generative-Cities",
+      "Youtube": "https://www.youtube.com/watch?v=-P_Sfl4e1xo"
+    },
+    "medium": [
+      "C#", "Unity", "Python"
+    ],
+    "date": {
+      "month": 5,
+      "year": 2018
+    }
+  },{
+    "title": "edges2calligraphy",
+    "images": [
+      {
+        "url": "https://cdn.glitch.com/6df32ef1-b99f-4c8b-a119-58c1ef7b41bf%2Fimg-e2c.png?1543713067087",
+        "size": "155%",
+        "position": "30% 55%"
+      }
+    ],
+    "description": "Turn your scribbles into Chinese calligraphy.",
+    "links": {
+      "Github": "https://github.com/LingDong-/edges2calligraphy",
+      "Play Online": "https://lingdong-.github.io/edges2calligraphy/"
+    },
+    "medium": [
+      "Javascript", "Python"
+    ],
+    "date": {
+      "month": 4,
+      "year": 2018
+    }
+  },{
+    "title": "Recursive Radical Packing Language",
+    "images": [
+      {
+        "url": "https://github.com/LingDong-/rrpl/raw/master/doc/screen000-1.png",
+        "size": "100%",
+        "position": "30% 55%"
+      }
+    ],
+    "description": "A new method for describing and visualizing Chinese characters.",
+    "links": {
+      "Github": "https://github.com/LingDong-/rrpl",
+      "Play Online": "https://chinese-radical-vis.glitch.me"
+    },
+    "medium": [
+      "Javascript", "Python"
+    ],
+    "date": {
+      "month": 10,
+      "year": 2018
+    }
+  },{
+    "title": "Instruction Manual - Stool",
+    "images": [
+      {
+        "url": "https://cdn.glitch.com/6df32ef1-b99f-4c8b-a119-58c1ef7b41bf%2Fimg-stool.png?1543715404732",
+        "size": "100%",
+        "position": "-50% 50%"
+      }
+    ],
+    "description": "Manual for advanced multi-directional human seating device",
+    "links": {
+      "PDF": "https://drive.google.com/file/d/15M94-hDETjHW4BqbujPpiFcxn4GTUNes/view?usp=sharing",
+      "Documentation": "https://drive.google.com/file/d/1_wZQRgoSYkjwTlrCFNN76z_mTvEqHeOW/view?usp=sharing"
+    },
+    "medium": [
+      "Digital print"
+    ],
+    "date": {
+      "month": 11,
+      "year": 2017
+    }
+  },{
+    "title": "Legend of Wrong Mountain",
+    "images": [
+      {
+        "url": "https://cdn.glitch.com/6df32ef1-b99f-4c8b-a119-58c1ef7b41bf%2Fimg-lown.png?1543716405148",
+        "size": "100%",
+        "position": "40% 50%"
+      }
+    ],
+    "description": "Full generation of traditional Chinese opera using multiple machine learning algorithms",
+    "links": {
+      "Youtube": "https://www.youtube.com/watch?v=QPdb28h4qjc",
+      "Paper": "https://www.youtube.com/watch?v=QPdb28h4qjc"
+    },
+    "medium": [
+      "Python"
+    ],
+    "date": {
+      "month": 5,
+      "year": 2018
+    }
+  }
+
+]
