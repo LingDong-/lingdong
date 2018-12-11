@@ -1,0 +1,189 @@
+@font-face {
+  font-family: 'Material Icons';
+  font-style: normal;
+  font-weight: 400;
+  src: url(https://cdn.glitch.com/6df32ef1-b99f-4c8b-a119-58c1ef7b41bf%2FMaterialIcons-Regular.ttf?1543712719360) format('truetype');
+}
+
+.material-icons {
+  font-family: 'Material Icons';
+  font-weight: normal;
+  font-style: normal;
+  font-size: 24px;  /* Preferred icon size */
+  display: inline-block;
+  line-height: 1;
+  text-transform: none;
+  letter-spacing: normal;
+  word-wrap: normal;
+  white-space: nowrap;
+  direction: ltr;
+  /* Support for all WebKit browsers. */
+  -webkit-font-smoothing: antialiased;
+  /* Support for Safari and Chrome. */
+  text-rendering: optimizeLegibility;
+  /* Support for Firefox. */
+  -moz-osx-font-smoothing: grayscale;
+  /* Support for IE. */
+  font-feature-settings: 'liga';
+}
+
+.material-icons.button{
+  padding: 0px 5px 0px 5px;
+  color: #0000004d;
+}
+.material-icons.button:hover{
+  color: #000000ad;
+  cursor: pointer;
+}
+
+.emerge {
+  position: relative;
+  -webkit-animation-name: emerge;
+  -webkit-animation-duration: 0.8s;
+  animation-name: emerge;
+  animation-duration: 0.8s
+}
+
+@-webkit-keyframes emerge {
+  from { bottom:0px; opacity:0 } 
+  to { bottom:0px; opacity:1 }
+}
+
+@keyframes emerge {
+  from{ bottom:0px; opacity:0 } 
+  to{ bottom:0; opacity:1 }
+}
+
+body{
+  background-color:#fafafa;
+/*   background-image:url(images/paper1.png); */
+  background-size:50%;
+  text-align: center;
+  margin : 0px  0px 0px 0px;
+  background-attachment: fixed;
+  font-family: 'Open Sans', sans-serif;
+}
+#content{
+  margin: 0px 0px 0px 0px;
+  padding: 0px 0px 0px 0px;
+/*   background-color:#fafafa; */
+  text-align: center;
+  font-family: 'Open Sans', sans-serif;
+}
+#nav{
+  background-color: #787b8b;
+  color: white;
+  font-family: 'Open Sans', sans-serif;
+  box-shadow: 2px 2px 2px #11111122;
+  width:100%;
+  padding: 0px 0px 0px 30px;
+  position: fixed;
+  z-index: 1000;
+  text-align: left;
+}
+#menu{
+  position: fixed;
+  right:0px;
+  top:42px;
+  background-color: white;
+  box-shadow: 2px 2px 2px #11111122;
+  z-index: 3000;
+}
+.menu-item{
+  padding: 0px 20px 0px 20px;
+  border-top: 1px solid silver;
+}
+#hint{
+  display: none;
+  position: absolute;
+  background-color: #000000b3;
+  color: white;
+  z-index: 2000;
+  padding: 0px 5px 0px 5px;
+  font-size: 12px;
+  border-radius: 2px;
+}
+
+.tag{
+  display: inline-block;
+  background-color: #00000042;
+  color: white;
+  font-family: 'Open Sans', sans-serif;
+  border-radius: 10px;
+  padding: 0px 10px 0px 10px;
+  margin: 0px 2px 0px 2px;
+}
+
+.search-inp {
+  width: 100%;
+  height: 10px;
+  padding: 12px 20px;
+  margin: 8px 0;
+  font-size: 16px;
+  font-family: 'Open Sans', sans-serif;
+
+}
+.dropdown{
+  -webkit-appearance: none;
+  border: 0.5px solid silver;
+  width: 128px;
+  height: 24px;
+  font-size: 12px;
+  padding: 0px 0px 0px 10px;
+  font-family: 'Open Sans', sans-serif;
+  color: grey;
+  background-color: #ffffff;
+}
+
+
+::placeholder {
+    color: #e3e3e3;
+}
+
+h1 {
+  font-size: 14px;
+}
+h2 {
+  font-size: 11px;
+  font-style: italic
+}
+
+a:link {
+    color: black;
+}
+a:visited {
+    color: black;
+}
+a:hover {
+    color: red;
+}
+a:active {
+    color: black;
+}
+.imbg{
+  filter: grayscale(20%);
+}
+.imbg:hover{
+  filter: grayscale(0%);
+}
+
+.hrz {
+  border-top: 1px solid #0000001c
+}
+.cell-w{
+  display:inline-block;
+  padding: 20px;
+}
+
+.cell{
+  display:table;
+  width:256px;
+  height:330px;
+  background-color: #ffffff;
+  box-shadow: 2px 2px 2px #11111122;
+  font-family: 'Open Sans', sans-serif;
+  border-radius: 3px;
+  line-height: 100%;
+  font-size: 11px;
+  text-align: left;
+}
