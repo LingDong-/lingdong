@@ -43,19 +43,22 @@ function loadprojs(data){
         + "border-radius : 3px 3px 0px 0px"
         + "\"></div>"
     
-    var outlinks = "<table style=''><tr>"
+    var outlinks = "<table style='max-height:24px; display: block;'><tr>"
     outlinks += "<td><i class='material-icons' "
-             +  "style='font-size:20px;color:grey'>link&nbsp;</i></td>"
+             +  "style='font-size:20px;color:grey'>link&nbsp;</i></td><td><table><tr>"
     var linklbl = Object.keys(proj.links)
     for (var j = 0 ; j < linklbl.length; j++){
-      outlinks += "<td style='font-size:12px'>"
+      outlinks += "<td style='font-size:12px; line-height:14px'>"
       outlinks += "<a href='"+proj.links[linklbl[j]]+"'>"+linklbl[j]+"</a>"
       outlinks += "</td>"
       if (j != linklbl.length - 1){
         outlinks += "<td>|</td>"
+        if (j % 2 == 0 && j != 0){
+          outlinks += "</tr><tr>"
+        }
       }
     }
-    outlinks += "</tr></table>"
+    outlinks += "</tr></table></td></tr></table>"
     var months = ["?","Jan","Feb","Mar","Apr","May","Jun",
                       "Jul","Aug","Sep","Oct","Nov","Dec"]
     var titlesize = 18

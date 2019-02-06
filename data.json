@@ -12,7 +12,8 @@
     "links": {
       "Github": "https://github.com/LingDong-/",
       "Vimeo": "https://vimeo.com/user48479503",
-      "Itch.io": "https://lingdonh.itch.io/"
+      "Itch.io": "https://lingdonh.itch.io/",
+      "Résumé": "https://cdn.glitch.com/6df32ef1-b99f-4c8b-a119-58c1ef7b41bf%2Flingdonh-resume.pdf?1548373795172"
     },
     "medium": [
       ""
@@ -582,6 +583,27 @@
     "date": {
       "month": 5,
       "year": 2018
+    }
+  },{
+    "title": "age2death",
+    "images": [
+      {
+        "url": "https://cdn.glitch.com/6df32ef1-b99f-4c8b-a119-58c1ef7b41bf%2Fa2d.png?1549419461871",
+        "size": "120%",
+        "position": "50% 50%"
+      }
+    ],
+    "description": "A mirror to watch yourself age to death (online)",
+    "links": {
+      "Play Online": "https://age2death.glitch.me",
+      "Documentation": "http://golancourses.net/2019/ngdon/01/30/ngdon-mask/"
+    },
+    "medium": [
+      "Javascript", "three.js", "handsfree.js"
+    ],
+    "date": {
+      "month": 2,
+      "year": 2019
     }
   }
 
