@@ -596,7 +596,8 @@
     "description": "A mirror to watch yourself age to death (online)",
     "links": {
       "Play Online": "https://age2death.glitch.me",
-      "Documentation": "http://golancourses.net/2019/ngdon/01/30/ngdon-mask/"
+      "Vimeo": "https://vimeo.com/315573733",
+      "Doc": "http://golancourses.net/2019/ngdon/01/30/ngdon-mask/"
     },
     "medium": [
       "Javascript", "three.js", "handsfree.js"
