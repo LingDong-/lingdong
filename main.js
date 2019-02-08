@@ -199,12 +199,6 @@ var SEARCH_TIMEOUT;
 
 function init(){
 
-  loadJSON("conf.json",function(response) {
-    conf = JSON.parse(response);
-    document.getElementById("title").innerHTML = conf.title;
-    document.title = conf.tab_title || conf.title;
-  });
-
   loadJSON("data.json",function(response) {
     DATA = JSON.parse(response);
     DATA.sort((x,y)=>(-calcdate(x.date)+calcdate(y.date)))
