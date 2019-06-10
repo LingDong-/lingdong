@@ -606,6 +606,48 @@
       "month": 2,
       "year": 2019
     }
+  },{
+    "title": "doodle-place",
+    "images": [
+      {
+        "url": "https://cdn.glitch.com/6df32ef1-b99f-4c8b-a119-58c1ef7b41bf%2Fdoodle-place-banner.png?v=1560132064340",
+        "size": "100%",
+        "position": "50% 20%"
+      }
+    ],
+    "description": "A virtual world inhabited by user-submitted, computationally-animated doodles",
+    "links": {
+      "Play Online": "https://doodle-place.glitch.me",
+      "Documentation": "http://golancourses.net/2019/ngdon/03/05/ngdon-drawingsoftware/"
+    },
+    "medium": [
+      "Javascript", "three.js", "OpenCV.js", "tensorflow.js", "sqlite"
+    ],
+    "date": {
+      "month": 3,
+      "year": 2019
+    }
+  },{
+    "title": "emojia",
+    "images": [
+      {
+        "url": "https://cdn.glitch.com/6df32ef1-b99f-4c8b-a119-58c1ef7b41bf%2Femojia-gameplay.png?v=1560132745396",
+        "size": "100%",
+        "position": "50% 50%"
+      }
+    ],
+    "description": "An online multiplayer world made entirely of emojis",
+    "links": {
+      "Play Online": "https://emojia.glitch.me",
+      "Documentation": "http://golancourses.net/2019/ngdon/04/10/ngdon-telematic/"
+    },
+    "medium": [
+      "Javascript", "socket.io"
+    ],
+    "date": {
+      "month": 4,
+      "year": 2019
+    }
   }
 
 ]
