@@ -25,6 +25,14 @@
   -moz-osx-font-smoothing: grayscale;
   /* Support for IE. */
   font-feature-settings: 'liga';
+    -webkit-touch-callout: none; /* iOS Safari */
+    -webkit-user-select: none; /* Safari */
+     -khtml-user-select: none; /* Konqueror HTML */
+       -moz-user-select: none; /* Firefox */
+        -ms-user-select: none; /* Internet Explorer/Edge */
+            user-select: none; /* Non-prefixed version, currently
+                                  supported by Chrome and Opera */
+  
 }
 
 .material-icons.button{
@@ -80,19 +88,9 @@ body{
   position: fixed;
   z-index: 1000;
   text-align: left;
+  height:42px;
 }
-#menu{
-  position: fixed;
-  right:0px;
-  top:42px;
-  background-color: white;
-  box-shadow: 2px 2px 2px #11111122;
-  z-index: 3000;
-}
-.menu-item{
-  padding: 0px 20px 0px 20px;
-  border-top: 1px solid silver;
-}
+
 #hint{
   display: none;
   position: absolute;
@@ -189,4 +187,40 @@ a:active {
   font-size: 11px;
   text-align: left;
   overflow: hidden;
+}
+
+#hamburger-menu{
+  box-shadow: 2px 2px 3px #11111122;
+  background: white;
+  transition: all .10s ease-in-out;
+/*   -webkit-animation-name: emerge; */
+/*   animation-name: emerge; */
+/*   -webkit-animation-duration: 0.1s; */
+/*   animation-duration: 0.1s */
+}
+#hamburger-btn{
+  transition: all .2s ease-in-out;
+}
+#hamburger-btn:hover{
+  text-shadow: 0px 0px 3px rgba(0,0,0,0.5);
+}
+.rotated{
+  transform:rotate(180deg);
+}
+.hamburger-item{
+  text-align:left;
+  background:white;
+  cursor:pointer;
+/*   border-bottom: 1px solid rgba(0,0,0,0.1); */
+  padding: 4px 16px 4px 16px;
+  transition: all .1s ease-in;
+}
+.hamburger-item:last-child{
+  padding-bottom:6px;
+}
+.hamburger-item:first-child{
+  padding-top:6px;
+}
+.hamburger-item:hover{
+  background:whitesmoke;
 }

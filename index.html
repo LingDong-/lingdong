@@ -4,7 +4,8 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1, user-scalable=0">
     <title>Lingdong Huang</title>
-    <script src="main.js"></script>
+    <script src="/main.js"></script>
+    <script>window.addEventListener("load",init)</script>
     <link rel="stylesheet" type="text/css" href="style.css">
     <link rel="icon" href="https://cdn.glitch.com/6df32ef1-b99f-4c8b-a119-58c1ef7b41bf%2Ffavicon.ico?1545295607333">
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,600" rel="stylesheet">
@@ -32,8 +33,11 @@
             <b><div id="title">Lingdong's Project Links</div></b>
           </td>
           <td style="align:right; width:80px;">
-            <i class="material-icons" style="font-size:30px;cursor: pointer;"
-              onclick = "window.scrollTo(0,0)"
+            <i id="hamburger-btn" class="material-icons" style="font-size:30px;cursor: pointer;"
+              onclick = "hamburgermenu({'Hired Work':'/hired_work',
+                                        'Github':'https://github.com/LingDong-',
+                                        'Résumé':'https://cdn.glitch.com/6df32ef1-b99f-4c8b-a119-58c1ef7b41bf%2Flingdonh-resume.pdf?v=1566371622525'
+                                       })"
             >menu</i>
            </td>
         </tr>

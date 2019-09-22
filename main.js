@@ -194,11 +194,43 @@ function updatecontent(){
   document.getElementById("content").innerHTML = loadprojs(CURR_DATA)
 }
 
+function hamburgermenu(links){
+  var opened = document.getElementById("hamburger-menu");
+  if (opened){
+    document.getElementById("hamburger-btn").classList.remove("rotated");
+    opened.parentNode.removeChild(opened);
+    return;
+  }
+  document.getElementById("hamburger-btn").classList.add("rotated");
+  var out = ""
+  for (var k in links){
+    if (out.length){
+      out += `<div class='hrz' style="width:80%;margin:auto;"></div>`
+    }
+    out += `<div class='hamburger-item' onclick="window.location.href='${links[k]}'">${k}</a></div>`
+  }
+  var div = document.createElement("div");
+  div.style.position="fixed";
+  div.style.top="45px";
+  div.style.right="10px";
+  div.id="hamburger-menu"
+  
+  div.innerHTML = out;
+  div.style.opacity = 0;
+  document.body.appendChild(div);
+  setTimeout(function(){
+    div.style.opacity = 1;
+  },100);
+  if (event){
+    event.stopPropagation();
+  }
+}
+
 console.log("hello there.")
 var SEARCH_TIMEOUT;
 
 function init(){
-
+  
   loadJSON("data.json",function(response) {
     DATA = JSON.parse(response);
     DATA.sort((x,y)=>(-calcdate(x.date)+calcdate(y.date)))
@@ -221,4 +253,3 @@ function init(){
 
 }
 
-window.addEventListener("load",init)

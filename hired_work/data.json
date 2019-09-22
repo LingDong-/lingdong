@@ -1,0 +1,109 @@
+[  
+  {
+    "title": "Internship at <a href=\"http://www.lozano-hemmer.com/\">Antimodular</a>",
+
+    "description": "Worked under new media artist Rafael Lozano-Hemmer and implemented interactive digital art installations using technology such as OpenCV, neural networks and OpenFrameworks, some of which were exhibited in Musée d'art contemporain in Montréal, Canada, San Miguel, Mexico and Wuzhen, China. ",
+    "date": {
+      "month": 5,
+      "year": 2018,
+      "duration":3
+    },
+    "projects":[
+      {
+        "title":"Sesiones con el Nigromante",
+        "description":"Projection mapping on a death mask, reanimating the Mexican poet Ignacio Ramírez.",
+        "roles":["Software development"],
+        "medium":["OpenFrameworks"],
+        "images":[
+          {
+            "url":"https://cdn.glitch.com/6df32ef1-b99f-4c8b-a119-58c1ef7b41bf%2FSnip20190916_1.png?v=1568670353729",
+            "size":"100%",
+            "position":"50% 50%"
+          }
+        ],
+        "links":[
+          "https://www.instagram.com/p/Bkf8AinFM3a/?hl=en&taken-by=lozanohemmer",
+          "https://www.instagram.com/p/BkgD-2_FUlD/?hl=en&taken-by=lozanohemmer"
+        ]
+      },
+      {
+        "title":"Recognition",
+        "description":"A room-sized projection installation that continuously searches and updates a database of faces, showing those that are the most similar and disimilar to the live participant.",
+        "roles":["Software development","Installation"],
+        "medium":["OpenFrameworks"],
+        "images":[
+          {
+            "url":"https://instagram.fagc2-1.fna.fbcdn.net/vp/cc17a8e85e852652420d8aa4d3c1c4c9/5DF8572F/t51.2885-15/sh0.08/e35/s640x640/66660085_336632420615259_4665107282079862182_n.jpg?_nc_ht=instagram.fagc2-1.fna.fbcdn.net&_nc_cat=103",
+            "size":"120%",
+            "position":"50% 90%"
+          }
+        ],
+        "links":[
+          "https://twitter.com/errafael/status/1156749020242599937"
+        ]
+      }
+    ]
+
+  },
+  
+  {
+    "title": "Internship at <a href=\"https://www.nytimes.com/\">The New York Times</a>",
+
+    "description": "Worked with the immersive story telling team to develop WebGL and AR (Augmented Reality) experiences, with my name appearing in bylines of three published articles.",
+    "date": {
+      "month": 5,
+      "year": 2019,
+      "duration":3
+    },
+    "projects":[
+      {
+        "title":"Apollo 11 As They Shot It",
+        "description":"See Neil Armstrong and Buzz Aldrin’s historic photographs and words from the moonwalk.",
+        "roles":["Software development"],
+        "medium":["JavaScript","WebGL","ARKit"],
+        "images":[
+          {
+            "url":"https://static01.nyt.com/images/2019/07/18/science/apollo-11-moon-landing-photos-ul-1563466868618/apollo-11-moon-landing-photos-ul-1563466868618-jumbo-v2.jpg",
+            "size":"100%",
+            "position":"50% 50%"
+          }
+        ],
+        "links":[
+          "https://www.nytimes.com/interactive/2019/07/18/science/apollo-11-moon-landing-photos-ul.html",
+          "https://www.nytimes.com/2019/07/19/reader-center/apollo-11-moon-landing-augmented-reality.html"
+        ]
+      }
+    ]
+
+  },
+  {
+    "title": "Internship at <a href=\"https://www.disneyresearch.com/\">Disney Research</a>",
+
+
+    "description": "Explored potential applications of Radio-Frequency Identification (RFID) technology, and designed interactive experiences for children around it in Unity3D.",
+    "date": {
+      "month": 6,
+      "year": 2017,
+      "duration":2
+    },
+    "projects":[
+      {
+        "title":"RapID Research",
+        "description":"Unity3D software involving 3D animation, procedurally generated landscape and weather, projection mapping, gesture classification and RFID technology. (Not yet published)",
+        "roles":["Software development"],
+        "medium":["Unity3D","Python"],
+        "images":[
+          {
+            "url":"https://cdn.glitch.com/6df32ef1-b99f-4c8b-a119-58c1ef7b41bf%2F11568832075_.jpg?v=1568832309271",
+            "size":"110%",
+            "position":"50% 50%"
+          }
+        ],
+        "links":[
+          "https://la.disneyresearch.com/people/lingdong-huang/"
+        ]
+      }
+    ]
+
+  }
+]
