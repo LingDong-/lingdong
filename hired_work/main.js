@@ -74,7 +74,7 @@ function updatecontent_hired(){
 
 function init_hired(){
 
-  loadJSON("hired_work/data.json",function(response) {
+  loadJSON("/hired_work/data.json",function(response) {
     DATA = JSON.parse(response);
     DATA.sort((x,y)=>(-calcdate(x.date)+calcdate(y.date)))
     CURR_DATA = DATA;
