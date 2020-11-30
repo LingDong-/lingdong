@@ -1,4 +1,82 @@
+<link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,600" rel="stylesheet">
+<style>
+body{
+  font-family: 'Open Sans', sans-serif;
+  
+}
+img {
+    page-break-before: auto; /* 'always,' 'avoid,' 'left,' 'inherit,' or 'right' */
+    page-break-after: auto; /* 'always,' 'avoid,' 'left,' 'inherit,' or 'right' */
+    page-break-inside: avoid; /* or 'auto' */
+}
+tr {
+    page-break-before: auto; /* 'always,' 'avoid,' 'left,' 'inherit,' or 'right' */
+    page-break-after: auto; /* 'always,' 'avoid,' 'left,' 'inherit,' or 'right' */
+    page-break-inside: avoid; /* or 'auto' */
+}
+@font-face {
+  font-family: 'Material Icons';
+  font-style: normal;
+  font-weight: 400;
+  src: url(https://cdn.glitch.com/6df32ef1-b99f-4c8b-a119-58c1ef7b41bf%2FMaterialIcons-Regular.ttf?1543712719360) format('truetype');
+}
+
+.material-icons {
+  font-family: 'Material Icons';
+  font-weight: normal;
+  font-style: normal;
+  font-size: 24px;  /* Preferred icon size */
+  display: inline-block;
+  line-height: 1;
+  text-transform: none;
+  letter-spacing: normal;
+  word-wrap: normal;
+  white-space: nowrap;
+  direction: ltr;
+  /* Support for all WebKit browsers. */
+  -webkit-font-smoothing: antialiased;
+  /* Support for Safari and Chrome. */
+  text-rendering: optimizeLegibility;
+  /* Support for Firefox. */
+  -moz-osx-font-smoothing: grayscale;
+  /* Support for IE. */
+  font-feature-settings: 'liga';
+    -webkit-touch-callout: none; /* iOS Safari */
+    -webkit-user-select: none; /* Safari */
+     -khtml-user-select: none; /* Konqueror HTML */
+       -moz-user-select: none; /* Firefox */
+        -ms-user-select: none; /* Internet Explorer/Edge */
+            user-select: none; /* Non-prefixed version, currently
+                                  supported by Chrome and Opera */
+  
+}
+</style>
 <script>
+    // _={
+    // "title": "Lingdong Huang",
+    // "images": [
+    //   {
+    //     "url": "media/lingdong.png",
+    //     "size": "140%",
+    //     "position": "50% 35%"
+    //   }
+    // ],
+    // "description": "Who made all the other stuff on this site...",
+    // "links": {
+    //   "Github": "https://github.com/LingDong-/",
+    //   "Vimeo": "https://vimeo.com/user48479503",
+    //   "Itch.io": "https://lingdonh.itch.io/",
+    //   "Résumé": "https://cdn.glitch.com/6df32ef1-b99f-4c8b-a119-58c1ef7b41bf%2Flingdonh-resume.pdf?v=1566371622525"
+    // },
+    // "medium": [
+    //   ""
+    // ],
+    // "date": {
+    //   "month": 7,
+    //   "year": 1997
+    // }
+    // };
+      
 function loadJSON(filename,callback) {   
   var xobj = new XMLHttpRequest();
   xobj.overrideMimeType("application/json");
@@ -10,13 +88,50 @@ function loadJSON(filename,callback) {
   };
   xobj.send(null);  
 }
+function generate(data,hata){
+  var html = `<div style="margin:50px;font-size:11px"><table>`;
+  for (var i = 0; i < data.length; i++){
+    html += `<tr><td style="border-bottom:1px solid black">`
+    var im = data[i].images[0]
+    html +="<div class='imbg'"
+         + "style=\""
+         + "background-image:url("+im.url+");"
+         + "background-position: "+im.position+";"
+         + "background-size : auto "+im.size+";"
+         + "opacity: 0.9;"
+         + "filter: ;"
+         + "width:128px;height:90px;"
+         + "border-radius : 0px 0px 0px 0px"
+         + "\"></div>";
+    html += `</td><td style="padding:20px;font-size:11px;border:1px solid black">`
+    html += `<h3>${data[i].title}</h3>`;
+    html += `<i>${data[i].description}</i>`;
+    html += `</td></tr>`
+    
+    
+    
+  }
+  html+=`</table></div>`
+  return html;
+}
+  
 loadJSON("data.json",function(data){
   data = JSON.parse(data);
   data.sort(function(a,b){
-    return (a.date.year * 100 + a.date.month) - (b.date.year * 100 + b.date.month);
+    return - (a.date.year * 100 + a.date.month) + (b.date.year * 100 + b.date.month);
   })
-  
-  console.log(data);
+  loadJSON("hired_work/data.json",function(data_hired){
+    data_hired = JSON.parse(data_hired);
+    data_hired.sort(function(a,b){
+      return - (a.date.year * 100 + a.date.month) + (b.date.year * 100 + b.date.month);
+    })  
+    // console.log(data,data_hired)
+    document.body.innerHTML = generate(data,data_hired)
+    // console.log(document.body.innerHTML)
+    
+    
+    
+  })
 })
 
 </script>

@@ -271,7 +271,8 @@
       "month": 7,
       "year": 2015
     }
-  },{
+  },
+  {
     "title": "Light Bearer",
     "images": [
       {
@@ -291,7 +292,8 @@
       "month": 12,
       "year": 2015
     }
-  },{
+  },
+  {
     "title": "Ci-ren",
     "images": [
       {
@@ -597,7 +599,7 @@
     "links": {
       "Play Online": "https://age2death.glitch.me",
       "Vimeo": "https://vimeo.com/315573733",
-      "Doc": "https://golancourses.net/2019/ngdon/01/30/ngdon-mask/"
+      "Doc": "http://golancourses.net/2019/ngdon/01/30/ngdon-mask/"
     },
     "medium": [
       "Javascript", "three.js", "handsfree.js"
@@ -618,7 +620,7 @@
     "description": "A virtual world inhabited by user-submitted, computationally-animated doodles",
     "links": {
       "Play Online": "https://doodle-place.glitch.me",
-      "Documentation": "https://golancourses.net/2019/ngdon/03/05/ngdon-drawingsoftware/"
+      "Documentation": "http://golancourses.net/2019/ngdon/03/05/ngdon-drawingsoftware/"
     },
     "medium": [
       "Javascript", "three.js", "OpenCV.js", "tensorflow.js", "sqlite"
@@ -639,7 +641,7 @@
     "description": "An online multiplayer world made entirely of emojis",
     "links": {
       "Play Online": "https://emojia.glitch.me",
-      "Documentation": "https://golancourses.net/2019/ngdon/04/10/ngdon-telematic/"
+      "Documentation": "http://golancourses.net/2019/ngdon/04/10/ngdon-telematic/"
     },
     "medium": [
       "Javascript", "socket.io"
