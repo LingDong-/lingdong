@@ -1,0 +1,22 @@
+<script>
+function loadJSON(filename,callback) {   
+  var xobj = new XMLHttpRequest();
+  xobj.overrideMimeType("application/json");
+  xobj.open('GET', filename, true);
+  xobj.onreadystatechange = function () {
+    if (xobj.readyState == 4 && xobj.status == "200") {
+      callback(xobj.responseText);
+    }
+  };
+  xobj.send(null);  
+}
+loadJSON("data.json",function(data){
+  data = JSON.parse(data);
+  data.sort(function(a,b){
+    return (a.date.year * 100 + a.date.month) - (b.date.year * 100 + b.date.month);
+  })
+  
+  console.log(data);
+})
+
+</script>

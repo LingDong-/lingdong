@@ -34,7 +34,14 @@
                                   supported by Chrome and Opera */
   
 }
-
+.noselect{
+      -webkit-user-select: none; /* Safari */
+     -khtml-user-select: none; /* Konqueror HTML */
+       -moz-user-select: none; /* Firefox */
+        -ms-user-select: none; /* Internet Explorer/Edge */
+            user-select: none; /* Non-prefixed version, currently
+                                  supported by Chrome and Opera */
+}
 .material-icons.button{
   padding: 0px 5px 0px 5px;
   color: #0000004d;
@@ -113,13 +120,13 @@ body{
 }
 
 .search-inp {
-  width: 100%;
+  width: calc(100% - 44px);
   height: 10px;
   padding: 12px 20px;
   margin: 8px 0;
   font-size: 16px;
   font-family: 'Open Sans', sans-serif;
-
+    
 }
 .dropdown{
   -webkit-appearance: none;
@@ -224,3 +231,29 @@ a:active {
 .hamburger-item:hover{
   background:whitesmoke;
 }
+
+.tabopt{
+  border:1px solid gray;
+  padding:5px 20px 5px 20px;
+  margin:0px;
+  cursor:pointer;
+}
+.tabopt:hover{
+  background:rgba(120,124,140,0.1);
+}
+.tabopt-on{
+  background:rgba(120,124,140,0.2);
+}
+.tabopt-on:hover{
+  background:rgba(120,124,140,0.3);
+}
+div::-webkit-scrollbar{
+  display:none;
+}
+
+
+
+
+/* td{
+  outline:1px solid red;
+} */

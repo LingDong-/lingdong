@@ -240,7 +240,7 @@
     ],
     "description": "Procedurally generated satellite image of cities.",
     "links": {
-      "Play Online": "https://www.andrew.cmu.edu/user/lingdonh/Gen-a-city/"
+      "Play Online": "http://www.andrew.cmu.edu/user/lingdonh/Gen-a-city/"
     },
     "medium": [
       "Javascript"

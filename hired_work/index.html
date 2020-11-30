@@ -6,6 +6,23 @@
     <title>Lingdong Huang</title>
     <script src="/main.js"></script>
     <script src="/hired_work/main.js"></script>
+    <script>
+    
+    function init_hired(){
+
+        loadJSON("/hired_work/data.json",function(response) {
+          DATA = JSON.parse(response);
+          DATA.sort((x,y)=>(-calcdate(x.date)+calcdate(y.date)))
+          CURR_DATA = DATA;
+          console.log(DATA);
+          updatecontent_hired(DATA);
+
+        });
+
+
+      }
+      init_hired();
+    </script>
     <link rel="stylesheet" type="text/css" href="/style.css">
     <link rel="stylesheet" type="text/css" href="/hired_work/style.css">
     <link rel="icon" href="https://cdn.glitch.com/6df32ef1-b99f-4c8b-a119-58c1ef7b41bf%2Ffavicon.ico?1545295607333">
@@ -20,7 +37,7 @@
           <td>
             <b><div id="title">Lingdong's Work for Hire</div></b>
           </td>
-          <td style="align:right; width:80px;; transform:translate(-4px,0px)">
+          <td style="align:right; width:80px;; transform:translate(-4px,2px)">
             <i id="hamburger-btn" class="material-icons" style="font-size:30px;cursor: pointer;"
               onclick = "hamburgermenu({'Personal Work':'/',
                                         'Github':'https://github.com/LingDong-',
