@@ -1,5 +1,116 @@
 [  
   {
+    "title": "Research Assistant at <a href=\"hhttps://studioforcreativeinquiry.org/\">STUDIO for Creative Inquiry</a>",
+
+    "description": "Conducted a wide range of machine learning, multimedia engineering, interaction design, and other creative coding projects as the Staff Creative Technologist for a leading academic arts-research laboratory. Served as both lead software developer and lead UX/UI designer for the Teenie Harris Interactive kiosk, an NEH-funded museum exhibit developed for long-term public exhibition at the Carnegie Museum of Art. As part of an invited team from CMU, programmed interactive visualizations of the entire collection of the US National Gallery of Art, using deep convolutional neural networks. Developed an interactive hand-pose estimator using machine learning and computer vision programming for a Google-funded faculty research project. Assisted professor Golan Levin with creative technology projects and tasks in a variety of environments (including Mac, Windows, and Linux operating systems) and programming languages (including Python, C++, openFrameworks, and Blender).",
+    "date": {
+      "month": 9,
+      "year": 2019,
+      "duration":15
+    },
+    "projects":[
+      {
+        "title":"PEmbroider",
+        "description":"Open library for computational embroidery with Processing",
+        "roles":["Software development"],
+        "medium":["Java","Processing"],
+        "images":[
+          {
+            "url":"https://user-images.githubusercontent.com/7929704/86315414-11044f00-bbf8-11ea-9b69-84573f41c28f.png",
+            "size":"300%",
+            "position":"30% 50%"
+          }
+        ],
+        "links":[
+          "https://github.com/CreativeInquiry/PEmbroider",
+          "https://www.flickr.com/photos/creativeinquiry/albums/72157713787290483"
+        ]
+      },
+      {
+        "title":"Teenie Harris Project",
+        "description":"Interactive display at Carnegie Museum of Art for Teenie Harris's 60,000 photographs",
+        "roles":["Software development"],
+        "medium":["OpenFrameworks","C++","Python"],
+        "images":[
+          {
+            "url":"https://live.staticflickr.com/65535/49535369048_7615a653fd_k.jpg",
+            "size":"120%",
+            "position":"50% 90%"
+          }
+        ],
+        "links":[
+          "https://www.flickr.com/photos/creativeinquiry/albums/72157712835519778"
+        ]
+      },
+      {
+        "title":"Hand Tracking Research",
+        "description":"Hand landmark and segmentation tracking with neural nets",
+        "roles":["Software development"],
+        "medium":["Tensorflow"],
+        "images":[
+          {
+            "url":"https://github.com/CreativeInquiry/LingdongProjectIndex/raw/master/screenshots/npy.jpg",
+            "size":"120%",
+            "position":"50% 50%"
+          }
+        ],
+        "links":[
+          "https://github.com/CreativeInquiry/LingdongProjectIndex"
+        ]
+      },
+      {
+        "title":"Ambigrammatic Figures",
+        "description":"55 Grotesque Ambigrams: faces that are legible both upside-down and right-side up",
+        "roles":["Software development"],
+        "medium":["Python","StyleGAN2"],
+        "images":[
+          {
+            "url":"https://github.com/golanlevin/AmbigrammaticFigures/raw/main/images/image0009.gif",
+            "size":"120%",
+            "position":"50% 50%"
+          }
+        ],
+        "links":[
+          "https://github.com/golanlevin/AmbigrammaticFigures"
+        ]
+      },
+      {
+        "title":"Educational Templates",
+        "description":"Various demos and templates for Prof. Golan Levin's sophomores",
+        "roles":["Software development"],
+        "medium":["Processing","JavaScript","p5.js","Glitch.com"],
+        "images":[
+          {
+            "url":"/media/handface.png",
+            "size":"100%",
+            "position":"50% 50%"
+          }
+        ],
+        "links":[
+          "https://github.com/CreativeInquiry/LingdongProjectIndex"
+        ]
+      },
+      {
+        "title":"National Neighbors",
+        "description":"Entry for National Gallery of Art Datathon: National Neighbors: Distant Viewing the National Gallery of Art's Collection of Collections",
+        "roles":["Software development"],
+        "medium":["Python"],
+        "images":[
+          {
+            "url":"/media/nga.jpg",
+            "size":"150%",
+            "position":"50% 50%"
+          }
+        ],
+        "links":[
+          "https://nga-neighbors.library.cmu.edu/about",
+          "https://www.flickr.com/photos/creativeinquiry/albums/72157711499030821"
+        ]
+      }
+    ]
+
+  },
+  {
     "title": "Internship at <a href=\"http://www.lozano-hemmer.com/\">Antimodular</a>",
 
     "description": "Worked under new media artist Rafael Lozano-Hemmer and implemented interactive digital art installations using technology such as OpenCV, neural networks and OpenFrameworks, some of which were exhibited in Musée d'art contemporain in Montréal, Canada, San Miguel, Mexico and Wuzhen, China. ",
@@ -33,7 +144,7 @@
         "medium":["OpenFrameworks"],
         "images":[
           {
-            "url":"https://instagram.fagc2-1.fna.fbcdn.net/vp/cc17a8e85e852652420d8aa4d3c1c4c9/5DF8572F/t51.2885-15/sh0.08/e35/s640x640/66660085_336632420615259_4665107282079862182_n.jpg?_nc_ht=instagram.fagc2-1.fna.fbcdn.net&_nc_cat=103",
+            "url":"/media/recog.jpg",
             "size":"120%",
             "position":"50% 90%"
           }
@@ -63,7 +174,7 @@
         "medium":["JavaScript","WebGL","ARKit"],
         "images":[
           {
-            "url":"https://static01.nyt.com/images/2019/07/18/science/apollo-11-moon-landing-photos-ul-1563466868618/apollo-11-moon-landing-photos-ul-1563466868618-jumbo-v2.jpg",
+            "url":"/media/apollo.jpg",
             "size":"100%",
             "position":"50% 50%"
           }

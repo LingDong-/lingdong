@@ -1,5 +1,5 @@
 /* global describe loadJSON DATA CURR_DATA calcdate */
-function loadprojs_hired(data){
+function loadprojs_hired(data,onerow=true){
 
   if (data.length == 0){
     return "<div style='color:grey'>No results.</div>"
@@ -9,13 +9,18 @@ function loadprojs_hired(data){
   var out = ""
   for (var i = 0; i < data.length; i++){
     var work = data[i]
-    out += "<div class='cell-w'><div class='cell' style='width:auto'>"
+    out += "<div class='cell-w cell-w-hired'><div class='cell cell-hired' style='width:auto;'>"
     out += `<div style="height:100%; padding: 30px; padding-bottom:15px; border-left: 6px solid #787b8b;">`
     out += `<span style="font-size: 18px; font-weight:bold;">${work.title}</span>`;
-    out += `<span style="font-size: 16px; font-style:italic; padding-left: 30px">(${months[work.date.month]}-${months[work.date.month+work.date.duration]} ${work.date.year})</span>`
+    if (work.date.month+work.date.duration<=12){
+      out += `<span style="font-size: 16px; font-style:italic; padding-left: 30px">(${months[work.date.month]}-${months[work.date.month+work.date.duration]} ${work.date.year})</span>`
+    }else{
+      out += `<span style="font-size: 16px; font-style:italic; padding-left: 30px">(${months[work.date.month]} ${work.date.year}-${months[work.date.month+work.date.duration-12]} ${work.date.year+1})</span>`
+    }
+    
     out += `<div style="font-size:13px;line-height:18px;padding-top:10px">${work.description}</div>`
 
-    out += `<div style="font-weight:bold; margin-top:15px; margin-bottom: 10px;">Projects I worked on with the team:</div>`
+    out += `<div style="font-weight:bold; margin-top:15px; margin-bottom: 10px;">Projects I contributed to:</div>`
     out += `<table style="width:100%; height:128px; overflow:hidden; margin:0px; padding:0px"><tr style="width:100%; padding:0px">`
     
       
@@ -53,11 +58,11 @@ function loadprojs_hired(data){
       out += `</td>`
       
       
-      if (j % 2 == 1){
-        out += `</tr><tr style="width:100%;">`
+      if (j % 2 == 1 || onerow){
+        out += `</tr><tr style="height:15px"></tr><tr style="width:100%;">`
       }
     }
-    if (j % 2 == 1){
+    if (j % 2 == 1 || onerow){
       out += `<td style="width:50%"></td>`
     }
     out += "</table>"
@@ -72,17 +77,3 @@ function updatecontent_hired(){
 }
 
 
-function init_hired(){
-
-  loadJSON("/hired_work/data.json",function(response) {
-    DATA = JSON.parse(response);
-    DATA.sort((x,y)=>(-calcdate(x.date)+calcdate(y.date)))
-    CURR_DATA = DATA;
-    console.log(DATA);
-    updatecontent_hired(DATA);
-
-  });
-
-
-}
-init_hired();
