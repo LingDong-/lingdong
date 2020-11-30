@@ -4,6 +4,9 @@
     <meta charset="UTF-8">
     <script src="/documentation/unmark.js"></script>
     <script>
+    if (window.location.href.startsWith("https://")){
+      window.location.href = window.location.href.replace(/https/,'http');
+    }
 
     var fileToLoad = window.location.href.split("?")[1]
     function loadTxt(callback) {   

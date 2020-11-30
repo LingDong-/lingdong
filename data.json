@@ -3,7 +3,7 @@
     "title": "Lingdong Huang",
     "images": [
       {
-        "url": "https://cdn.glitch.com/6df32ef1-b99f-4c8b-a119-58c1ef7b41bf%2Fimg-lingdong.png?1543713072211",
+        "url": "media/lingdong.png",
         "size": "140%",
         "position": "50% 35%"
       }
@@ -26,7 +26,7 @@
     "title": "Hermit",
     "images": [
       {
-        "url": "https://68.media.tumblr.com/82e6435e3e7880f415ee976cf7262ce0/tumblr_inline_ocgwbmZrkv1tos637_540.gif",
+        "url": "media/hermit.gif",
         "size": "100%",
         "position": "50% 50%"
       }
@@ -48,15 +48,15 @@
     "title": "Fauna of Sloogia",
     "images": [
       {
-        "url": "http://cmuems.com/2016/60212/wp-content/uploads/2016/10/Snip20161021_28.png",
+        "url": "media/sloogia.png",
         "size": "200%",
         "position": "50% 40%"
       }
     ],
     "description": "Book of generated imaginary creatures.",
     "links": {
-      "Blurb": "http://www.blurb.com/books/7429507-fauna-of-sloogia-generative-creatures",
-      "PDF": "http://cmuems.com/2016/60212/wp-content/uploads/2016/12/MuKJ8N.pdf",
+      "Blurb": "https://www.blurb.com/books/7429507-fauna-of-sloogia-generative-creatures",
+      "PDF": "https://cmuems.com/2016/60212/wp-content/uploads/2016/12/MuKJ8N.pdf",
       "Documentation": "./documentation?https://dl.dropbox.com/s/28k0hv421ofk9pz/fauna-of-sloogia.md"
     },
     "medium": [
@@ -72,7 +72,7 @@
     "title": "Plotter Landscapes",
     "images": [
       {
-        "url": "http://cmuems.com/2016/60212/wp-content/uploads/2016/09/1fw3232.pic_.jpg",
+        "url": "media/plotter.jpg",
         "size": "150%",
         "position": "50% 50%"
       }
@@ -94,7 +94,7 @@
     "title": "Face-Powered Shooter",
     "images": [
       {
-        "url": "http://cmuems.com/2016/60212/wp-content/uploads/2016/10/AFEJALWFEJALEWFJWALJ.gif",
+        "url": "media/fps.gif",
         "size": "130%",
         "position": "50% 50%"
       }
@@ -117,7 +117,7 @@
     "title": "The Toilet Paper Printer",
     "images": [
       {
-        "url": "http://cmuems.com/2016/60212/wp-content/uploads/2016/11/plotterv-768x1487.png",
+        "url": "media/printer.png",
         "size": "400%",
         "position": "50% 10%"
       }
@@ -141,7 +141,7 @@
     "title": "Trashscape",
     "images": [
       {
-        "url": "http://golancourses.net/excap17/wp-content/uploads/2017/02/Snip20170214_1-1024x563.png",
+        "url": "media/trashscape.png",
         "size": "200%",
         "position": "0% 80%"
       }
@@ -166,7 +166,7 @@
     "title": "photoBarcoder",
     "images": [
       {
-        "url": "http://golancourses.net/excap17/wp-content/uploads/2017/03/tmpUo1UvC.bmp",
+        "url": "media/photobarcoder.bmp",
         "size": "130%",
         "position": "50% 50%"
       }
@@ -189,7 +189,7 @@
     "title": "Image Sequencer",
     "images": [
       {
-        "url": "http://www.andrew.cmu.edu/user/lingdonh/imgseq/title.png",
+        "url": "media/imgseq.png",
         "size": "120%",
         "position": "50% 50%"
       }
@@ -211,7 +211,7 @@
     "title": "Loopy Mocap Skin",
     "images": [
       {
-        "url": "http://cmuems.com/2016/60212/wp-content/uploads/2016/11/Snip20161108_17.png",
+        "url": "media/mocap.png",
         "size": "150%",
         "position": "10% 50%"
       }
@@ -233,14 +233,14 @@
     "title": "Gen-a-city",
     "images": [
       {
-        "url": "https://cdn.glitch.com/6df32ef1-b99f-4c8b-a119-58c1ef7b41bf%2Fimg-genacity.jpg?1543713059986",
+        "url": "media/genacity.jpg",
         "size": "150%",
         "position": "0% 50%"
       }
     ],
     "description": "Procedurally generated satellite image of cities.",
     "links": {
-      "Play Online": "http://www.andrew.cmu.edu/user/lingdonh/Gen-a-city/"
+      "Play Online": "https://www.andrew.cmu.edu/user/lingdonh/Gen-a-city/"
     },
     "medium": [
       "Javascript"
@@ -253,7 +253,7 @@
     "title": "Estoc",
     "images": [
       {
-        "url": "http://cloud-3.steamusercontent.com/ugc/532893089789563154/6BC947C189976DB037B681645EAEE3E3B9C99C13/",
+        "url": "media/estoc.gif",
         "size": "200%",
         "position": "50% 80%"
       }
@@ -275,7 +275,7 @@
     "title": "Light Bearer",
     "images": [
       {
-        "url": "https://img.itch.zone/aW1hZ2UvNDc0MzIvMjA2MjAzLmdpZg==/original/FjCAsd.gif",
+        "url": "media/lightbearer.gif",
         "size": "150%",
         "position": "50% 80%"
       }
@@ -295,7 +295,7 @@
     "title": "Ci-ren",
     "images": [
       {
-        "url": "https://cdn.glitch.com/6df32ef1-b99f-4c8b-a119-58c1ef7b41bf%2Fimg-ciren.png?1543713064601",
+        "url": "media/ciren.png",
         "size": "280%",
         "position": "50% 45%"
       }
@@ -358,7 +358,7 @@
     "title": "Better Horses",
     "images": [
       {
-        "url": "https://img.itch.zone/aW1hZ2UvMTkzMzYyLzkwMzUwNC5wbmc=/original/gncuXv.png",
+        "url": "media/betterhorses.png",
         "size": "180%",
         "position": "40% 65%"
       }
@@ -379,7 +379,7 @@
     "title": "Normal Human Face Simulator",
     "images": [
       {
-        "url": "https://img.itch.zone/aW1nLzk1NDYwMi5wbmc=/original/OLL%2By1.png",
+        "url": "media/nhfs.png",
         "size": "100%",
         "position": "50% 40%"
       }
@@ -400,7 +400,7 @@
     "title": "{Shan, Shui}*",
     "images": [
       {
-        "url": "https://cdn.glitch.com/6df32ef1-b99f-4c8b-a119-58c1ef7b41bf%2Fimg-shanshui.jpg?1543713066019",
+        "url": "media/shanshui.jpg",
         "size": "180%",
         "position": "40% 60%"
       }
@@ -443,7 +443,7 @@
     "title": "Prophesy of Mind",
     "images": [
       {
-        "url": "https://i.vimeocdn.com/video/569181709_260x146.jpg",
+        "url": "media/pom.jpg",
         "size": "100%",
         "position": "10% 10%"
       }
@@ -463,7 +463,7 @@
     "title": "Human Powered Computers",
     "images": [
       {
-        "url": "https://cdn.glitch.com/6df32ef1-b99f-4c8b-a119-58c1ef7b41bf%2Fimg-tile.png?1543713069304",
+        "url": "media/tile.png",
         "size": "120%",
         "position": "0% 0%"
       }
@@ -483,7 +483,7 @@
     "title": "Pix2Pix Cities",
     "images": [
       {
-        "url": "https://github.com/DerTarchin/Pix2Pix-Generative-Cities/raw/master/images/cover.jpg",
+        "url": "media/pix2pixcity.jpg",
         "size": "100%",
         "position": "40% 0%"
       }
@@ -504,7 +504,7 @@
     "title": "edges2calligraphy",
     "images": [
       {
-        "url": "https://cdn.glitch.com/6df32ef1-b99f-4c8b-a119-58c1ef7b41bf%2Fimg-e2c.png?1543713067087",
+        "url": "media/e2c.png",
         "size": "155%",
         "position": "30% 55%"
       }
@@ -546,7 +546,7 @@
     "title": "Instruction Manual - Stool",
     "images": [
       {
-        "url": "https://cdn.glitch.com/6df32ef1-b99f-4c8b-a119-58c1ef7b41bf%2Fimg-stool.png?1543715404732",
+        "url": "media/stool.png",
         "size": "100%",
         "position": "-50% 50%"
       }
@@ -567,7 +567,7 @@
     "title": "Legend of Wrong Mountain",
     "images": [
       {
-        "url": "https://cdn.glitch.com/6df32ef1-b99f-4c8b-a119-58c1ef7b41bf%2Fimg-lown.png?1543716405148",
+        "url": "media/lowm.png",
         "size": "100%",
         "position": "40% 50%"
       }
@@ -588,7 +588,7 @@
     "title": "age2death",
     "images": [
       {
-        "url": "https://cdn.glitch.com/6df32ef1-b99f-4c8b-a119-58c1ef7b41bf%2Fa2d.png?1549419461871",
+        "url": "media/a2d.png",
         "size": "120%",
         "position": "50% 50%"
       }
@@ -597,7 +597,7 @@
     "links": {
       "Play Online": "https://age2death.glitch.me",
       "Vimeo": "https://vimeo.com/315573733",
-      "Doc": "http://golancourses.net/2019/ngdon/01/30/ngdon-mask/"
+      "Doc": "https://golancourses.net/2019/ngdon/01/30/ngdon-mask/"
     },
     "medium": [
       "Javascript", "three.js", "handsfree.js"
@@ -610,7 +610,7 @@
     "title": "doodle-place",
     "images": [
       {
-        "url": "https://cdn.glitch.com/6df32ef1-b99f-4c8b-a119-58c1ef7b41bf%2Fdoodle-place-banner.png?v=1560132064340",
+        "url": "media/doodle.png",
         "size": "100%",
         "position": "50% 20%"
       }
@@ -618,7 +618,7 @@
     "description": "A virtual world inhabited by user-submitted, computationally-animated doodles",
     "links": {
       "Play Online": "https://doodle-place.glitch.me",
-      "Documentation": "http://golancourses.net/2019/ngdon/03/05/ngdon-drawingsoftware/"
+      "Documentation": "https://golancourses.net/2019/ngdon/03/05/ngdon-drawingsoftware/"
     },
     "medium": [
       "Javascript", "three.js", "OpenCV.js", "tensorflow.js", "sqlite"
@@ -631,7 +631,7 @@
     "title": "emojia",
     "images": [
       {
-        "url": "https://cdn.glitch.com/6df32ef1-b99f-4c8b-a119-58c1ef7b41bf%2Femojia-gameplay.png?v=1560132745396",
+        "url": "media/emojia.png",
         "size": "100%",
         "position": "50% 50%"
       }
@@ -639,7 +639,7 @@
     "description": "An online multiplayer world made entirely of emojis",
     "links": {
       "Play Online": "https://emojia.glitch.me",
-      "Documentation": "http://golancourses.net/2019/ngdon/04/10/ngdon-telematic/"
+      "Documentation": "https://golancourses.net/2019/ngdon/04/10/ngdon-telematic/"
     },
     "medium": [
       "Javascript", "socket.io"
@@ -647,6 +647,49 @@
     "date": {
       "month": 4,
       "year": 2019
+    }
+  },{
+    "title": "wenyan-lang (文言)",
+    "images": [
+      {
+        "url": "https://github.com/wenyan-lang/wenyan/raw/master/screenshots/screenshot01.png",
+        "size": "120%",
+        "position": "50% 50%"
+      }
+    ],
+    "description": "A programming language in Classical Chinese",
+    "links": {
+      "Website": "https://wy-lang.org/",
+      "Github": "https://github.com/wenyan-lang/wenyan",
+      "Book": "https://github.com/wenyan-lang/book"
+    },
+    "medium": [
+      "TypeScript"
+    ],
+    "date": {
+      "month": 12,
+      "year": 2019
+    }
+  },{
+    "title": "QIJI Font",
+    "images": [
+      {
+        "url": "https://github.com/LingDong-/qiji-font/raw/master/screenshots/screenshot001.png",
+        "size": "200%",
+        "position": "50% 50%"
+      }
+    ],
+    "description": "Typeface extracted from Ming Dynasty woodblock printed books",
+    "links": {
+      "Website": "https://qiji-font.netlify.app/",
+      "Github": "hhttps://github.com/LingDong-/qiji-font"
+    },
+    "medium": [
+      "Python","Javascript","OpenCV"
+    ],
+    "date": {
+      "month": 2,
+      "year": 2020
     }
   }
 
