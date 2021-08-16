@@ -684,7 +684,7 @@
     "description": "Typeface extracted from Ming Dynasty woodblock printed books",
     "links": {
       "Website": "https://qiji-font.netlify.app/",
-      "Github": "hhttps://github.com/LingDong-/qiji-font"
+      "Github": "https://github.com/LingDong-/qiji-font"
     },
     "medium": [
       "Python","Javascript","OpenCV"
@@ -692,6 +692,27 @@
     "date": {
       "month": 2,
       "year": 2020
+    }
+  },{
+    "title": "fishdraw",
+    "images": [
+      {
+        "url": "media/fish.png",
+        "size": "107%",
+        "position": "50% 50%"
+      }
+    ],
+    "description": "Procedurally generated fish drawings",
+    "links": {
+      "Website": "https://fishdraw.glitch.me/",
+      "Github": "https://github.com/LingDong-/fishdraw"
+    },
+    "medium": [
+      "Javascript"
+    ],
+    "date": {
+      "month": 8,
+      "year": 2021
     }
   }
 
